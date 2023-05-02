@@ -15,4 +15,4 @@ module.exports = {
     "https://alexandershoup.com/colophon",
     // "https://alexandershoup.com/portfolio",
   ],
-};//
+};
