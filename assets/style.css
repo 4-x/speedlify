@@ -50,7 +50,7 @@ summary {
 }
 
 .url {
-  font-size: 1em; /* 20px /16 */
+  font-size: inherit; /* 20px /16 */
   -ms-word-break: break-all;
   word-break: break-all;
   word-break: break-word;
@@ -58,7 +58,7 @@ summary {
 @media (min-width: 60em) {
   /* 960px */
   .url {
-    font-size: 1.25em; /* 20px /16 */
+    font-size: inherit; /* 20px /16 */
   }
 }
 
@@ -234,7 +234,8 @@ abbr {
 @media (min-width: 50em) {
   /* 800px */
   .leaderboard > tbody > tr > td {
-    font-size: 1.3125em; /* 21px /16 */
+    /* font-size: 1.3125em;  */
+    /* 21px /16 */
   }
 }
 
