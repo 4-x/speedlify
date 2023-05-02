@@ -10,6 +10,13 @@ body {
   color: black;
   margin: 0.5rem; /* 8px /16 */
 }
+header {
+  max-width: 100rem;
+  margin: auto;
+}
+main {
+  min-height: 70vh;
+}
 footer {
   font-style: italic;
   text-align: center;
@@ -76,7 +83,6 @@ abbr {
 
 /* Speedlify specific styles */
 .speedlify-hed {
-  text-align: center;
   font-size: 2em;
   text-transform: lowercase;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -88,8 +94,6 @@ abbr {
   }
 }
 .speedlify-subhed {
-  padding: 0 2em;
-  margin: 0 auto;
   max-width: 40em;
 }
 .speedlify-subhed ~ .speedlify-subhed {
