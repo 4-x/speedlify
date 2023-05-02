@@ -299,26 +299,28 @@ counts:
 		{%- endfor %}
 		</tbody>
 	</table><!-- /leaderboard -->
-	<dl class="category-stats">
-		<div class="category-stats-entry">
-			<dt>Performance 💯</dt>
-			<dd>{{ counts.performance }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>Accessibility 💯</dt>
-			<dd>{{ counts.accessibility }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>Best Practices 💯</dt>
-			<dd>{{ counts.bestPractices }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>SEO 💯</dt>
-			<dd>{{ counts.seo }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>Perfect 4×💯</dt>
-			<dd>{{ counts.perfect }}<span> / {{ counts.total }}</span></dd>
-		</div>
-	</dl>
+  <div class="category-stats-wrapper">
+  	<dl class="category-stats">
+      <div class="category-stats-entry">
+        <dt>Performance 💯</dt>
+        <dd>{{ counts.performance }}<span> / {{ counts.total }}</span></dd>
+      </div>
+      <div class="category-stats-entry">
+        <dt>Accessibility 💯</dt>
+        <dd>{{ counts.accessibility }}<span> / {{ counts.total }}</span></dd>
+      </div>
+      <div class="category-stats-entry">
+        <dt>Best Practices 💯</dt>
+        <dd>{{ counts.bestPractices }}<span> / {{ counts.total }}</span></dd>
+      </div>
+      <div class="category-stats-entry">
+        <dt>SEO 💯</dt>
+        <dd>{{ counts.seo }}<span> / {{ counts.total }}</span></dd>
+      </div>
+      <div class="category-stats-entry">
+        <dt>Perfect 4×💯</dt>
+        <dd>{{ counts.perfect }}<span> / {{ counts.total }}</span></dd>
+      </div>
+    </dl>
+  </div>
 </div><!-- /leaderboard-wrapper -->

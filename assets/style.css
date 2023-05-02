@@ -500,20 +500,21 @@ abbr {
 }
 
 /* Category stats */
+.category-stats-wrapper {
+  max-width: 100rem;
+  margin: auto;
+}
 .category-stats {
-  margin: 2em auto 4em;
   max-width: 25em; /* 400px /16 */
 }
 .category-stats,
 .category-stats-entry {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
 }
 .category-stats-entry {
   flex-basis: 20em;
-  padding: 0 1em;
 }
 .category-stats dt,
 .category-stats dd {
@@ -522,13 +523,11 @@ abbr {
 .category-stats dt {
   flex-grow: 999;
   min-width: 9.375em; /* 150px /16 */
-  text-align: right;
 }
 .category-stats dd {
   flex-grow: 1;
   text-align: right;
   margin: 0 0 0 0.5em;
-  font-size: 2em;
   font-variant-numeric: tabular-nums;
   font-weight: 700;
 }
