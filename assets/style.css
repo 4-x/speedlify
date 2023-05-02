@@ -35,7 +35,7 @@ html:not(.js) [data-js-only] {
 
 :link,
 :visited {
-  color: #fff;
+  color: inherit;
 }
 
 summary {
@@ -66,7 +66,7 @@ td {
 }
 th {
   text-align: left;
-  color: #ddd;
+  color: black;
   font-weight: normal;
 }
 
@@ -152,7 +152,7 @@ abbr {
   border-top: 1px solid #444;
 }
 .leaderboard-list-entry:not(.expanded):target {
-  background-color: #444;
+  background-color: black;
 }
 .leaderboard-list-entry.expanded {
   border-color: #888;
@@ -166,7 +166,7 @@ abbr {
 }
 .leaderboard-list-entry.expanded,
 .leaderboard-list-entry-details.expanded {
-  background-color: #181818;
+  /* background-color: #181818; */
 }
 .leaderboard-expand-icon {
   display: inline-block;
@@ -181,7 +181,7 @@ abbr {
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #aaa;
+  border-left: 7px solid white;
 }
 .leaderboard-list-entry.expanded .leaderboard-expand-icon {
   transform: rotate(90deg);
@@ -238,7 +238,8 @@ abbr {
   white-space: nowrap;
   display: inline-block;
   text-decoration: none;
-  background-color: #444;
+  background-color: black;
+  color: white;
   border-radius: 50px;
   border: 1px solid #aaa;
   padding: 0.5em 1em;

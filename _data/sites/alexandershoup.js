@@ -9,6 +9,5 @@ module.exports = {
   urls: [
     "https://alexandershoup.com/",
     "https://alexandershoup.com/colophon",
-
   ],
 };
